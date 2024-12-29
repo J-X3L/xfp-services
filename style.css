@@ -1,0 +1,49 @@
+.cnt_1{
+    width: 300px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 20px 20px 20px;
+    transition: 0.4s;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cnt_1:hover{ 
+    border: 1px solid rgba(0, 0, 0, 0.278);
+}
+.cnt{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0 auto; 
+}
+
+.lng{
+    margin-top: 15px;
+    background-color: #6f0000;
+    border: none;
+    color: white;
+    font-family: century gothic;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 8px 2px 8px 2px;
+    cursor: pointer;
+}
+.b5{
+    font-family: century gothic;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+.b2{
+    font-family: century gothic; 
+    font-weight:700;
+    font-size: 24px;
+    
+}
+.im_1{
+    width: 300px;
+    border-radius: 8px;
+}

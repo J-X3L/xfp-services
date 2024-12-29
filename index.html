@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .cnt_1 {
+    width: 300px;
+    display: grid;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 20px 20px 20px;
+    transition: 0.4s;
+    margin-bottom: 40px;
+}
+
+.cnt_1:hover {
+    border: 1px solid rgba(0, 0, 0, 0.187);
+}
+
+.cnt {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lng {
+    margin-top: 15px;
+    background-color: #6f0000;
+    border: none;
+    color: white;
+    font-family: century gothic;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 8px 2px 8px 2px;
+    cursor: pointer;
+}
+
+.b5 {
+    font-family: century gothic;
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin-top: 6px; /* Removes space above the paragraph */
+}
+
+.b2 {
+    font-family: century gothic;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0; /* Removes space below the header */
+}
+
+.im_1 {
+    width: 300px;
+    border-radius: 8px;
+}
+
+/* Mobile responsiveness: Display 1 container at a time on small screens */
+@media (max-width: 768px) {
+    .cnt {
+        grid-template-columns: 1fr; /* Display 1 container per row */
+    }
+
+    .cnt_1 {
+        width: 100%; /* Make each container take up the full width */
+        margin-bottom: 20px; /* Reduce the space between containers */
+    }
+
+    .im_1 {
+        width: 100%; /* Ensure image scales to the container width */
+    }
+}
+
+
+    </style>
+    <title>Services</title>
+</head>
+<body>
+    <div class="cnt">
+        <div class="cnt_1">
+            <img class="im_1" src="https://xfpproductions.com/wp-content/uploads/2024/10/image6.jpeg" alt="icon-svg">
+            <!--Heading and Paragraph-->
+            <p class="b2">Talent Management</p>
+            <span class="higt"></span>
+            <p class="b5">We represent a diverse group of artists, including PWDs, offering the support and resources they need to succeed.</p>
+            <button class="lng">Enquire  <!--icon--> </button>
+        </div>
+        <!--Container 2-->
+        <div class="cnt_1">
+            <img class="im_1" src="https://xfpproductions.com/wp-content/uploads/2024/10/image6.jpeg" alt="icon-svg">
+            <!--Heading and Paragraph-->
+            <p class="b2">Event Planning</p>
+            <span class="higt"></span>
+            <p class="b5">We create memorable events, from talent shows to award ceremonies, that showcase PWD talents and promote inclusion.</p>
+            <button class="lng">Enquire  <!--icon--> </button>
+        </div>
+        <!--container 3-->
+        <div class="cnt_1">
+            <img class="im_1" src="https://xfpproductions.com/wp-content/uploads/2024/10/image6.jpeg" alt="icon-svg">
+            <!--Heading and Paragraph-->
+            <p class="b2">Media Consultancy</p>
+            <span class="higt"></span>
+            <p class="b5">We provide expert media consulting to help organizations with inclusive marketing and representation.</p>
+            <button class="lng">Enquire  <!--icon--> </button>
+        </div>
+        <!--container 4-->
+        <div class="cnt_1">
+            <img class="im_1" src="https://xfpproductions.com/wp-content/uploads/2024/10/image6.jpeg" alt="icon-svg">
+            <!--Heading and Paragraph-->
+            <p class="b2">Talent Management</p>
+            <span class="higt"></span>
+            <p class="b5">We represent a diverse group of artists, including PWDs, offering the support and resources they need to succeed.</p>
+            <button class="lng">Enquire  <!--icon--> </button>
+        </div>
+        <!--Container 2-->
+        <div class="cnt_1">
+            <img class="im_1" src="https://xfpproductions.com/wp-content/uploads/2024/10/image6.jpeg" alt="icon-svg">
+            <!--Heading and Paragraph-->
+            <p class="b2">Event Planning</p>
+            <span class="higt"></span>
+            <p class="b5">We create memorable events, from talent shows to award ceremonies, that showcase PWD talents and promote inclusion.</p>
+            <button class="lng">Enquire  <!--icon--> </button>
+        </div>
+        <!--container 3-->
+        <div class="cnt_1">
+            <img class="im_1" src="https://xfpproductions.com/wp-content/uploads/2024/10/image6.jpeg" alt="icon-svg">
+            <!--Heading and Paragraph-->
+            <p class="b2">Media Consultancy</p>
+            <span class="higt"></span>
+            <p class="b5">We provide expert media consulting to help organizations with inclusive marketing and representation.</p>
+            <button class="lng">Enquire  <!--icon--> </button>
+        </div>
+    </div>
+</body>
+</html>
